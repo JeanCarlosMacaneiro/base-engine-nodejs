@@ -1,0 +1,36 @@
+{
+  "name": "engine-base",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "dev:nodemon": "nodemon",
+    "dev:start": "ts-node ./src/index.ts"
+  },
+  "author": "Jean Maçaneiro",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "compression": "^1.7.5",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "helmet": "^8.1.0",
+    "inversify": "^7.9.1",
+    "mysql2": "^3.14.4",
+    "reflect-metadata": "^0.2.2",
+    "sequelize": "^6.37.7",
+    "uuid": "^11.0.3",
+    "winston": "^3.17.0"
+  },
+  "devDependencies": {
+    "@types/compression": "^1.7.5",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.2",
+    "esbuild": "^0.25.9",
+    "eslint": "^9.17.0",
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  }
+}
