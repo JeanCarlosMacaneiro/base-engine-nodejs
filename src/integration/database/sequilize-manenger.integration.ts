@@ -19,9 +19,9 @@ class SequelizeManagerIntegration implements IDbManager{
 
         this._connection = new Sequelize
         (
-            process.env.DB_MYSQL_NAME_DB as string,
-            process.env.DB_MYSQL_USER as string,
-            process.env.DB_MYSQL_PASSW as string,
+            process.env.DB_NAME_DB as string,
+            process.env.DB_USER as string,
+            process.env.DB_PASSW as string,
             {
                 host:process.env.DB_MYSQL_HOST,
                 dialect:'mysql',
