@@ -16,6 +16,8 @@ class ApiService{
     private _server:any;
     private readonly _apiPort = process.env.API_PORT || 3002;
     private _logger?:ILogger;
+    
+    //TODO: Modificar para un array de RouterBase para poder agregar mas rutas por una matrix
     private _userRoute?:UserRoute;
 
     constructor(){

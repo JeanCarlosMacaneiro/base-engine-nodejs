@@ -1,3 +1,4 @@
+import { Router } from "express";
 import UsersController from "../../controllers/users.controll";
 import BaseRoutes from "../base-routes/base.router";
 /**
